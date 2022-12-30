@@ -10,7 +10,7 @@ class Mobile extends Model
 {
     use HasFactory;
 
-    
+     
 
     function customer(){
 
