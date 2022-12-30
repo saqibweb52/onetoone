@@ -11,7 +11,7 @@ class MobileController extends Controller
     function show_customer($id){
 
         //$customer  = mobile::class($id)->Customer; 
-        $customer = Mobile::whereId($id)->get();
+        $customer = Customer::whereId($id)->get();
         return $customer;
     }
 }
